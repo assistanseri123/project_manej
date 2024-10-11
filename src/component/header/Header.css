@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+ .header{
+    margin-top: 60px;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora',serif;
+    color:red;
+}
+.headerTitleSm {
+    position: absolute;
+    top: 15%;
+    font-size: 40px;
+  }
+.headerTitleLg{
+    position: absolute;
+    top: 23%;
+    font-size: 70px;
+}
+.headerImg{
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    object-fit: cover;
+}

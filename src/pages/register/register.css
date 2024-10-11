@@ -1,0 +1,57 @@
+.register{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=94");
+  background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+    text-decoration:underline;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 5px 0px;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
+.RegisterloginButton{
+    /* position: absolute; */
+    /* top: 60px; */
+    /* right: 20px; */
+    margin-top: 10px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px 80px;
+    color: white;
+    border-radius: 10px;
+}
+.googleAuthButton{
+    margin-top: 10px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
